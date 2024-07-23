@@ -4,6 +4,7 @@ import { MaterialModule } from "../core/material/material.module";
 import { ReactiveFormsModule } from "@angular/forms";
 import { HomeComponent } from "./home.component";
 import { SharedModule } from "../shared/shared.module";
+import { HomeRoutingModule } from "./home-routing.module";
 
 @NgModule({
     declarations:[
@@ -13,7 +14,7 @@ import { SharedModule } from "../shared/shared.module";
         CommonModule,
         SharedModule,
         MaterialModule,
-        ReactiveFormsModule
+        HomeRoutingModule
     ],
     exports:[
         HomeComponent
